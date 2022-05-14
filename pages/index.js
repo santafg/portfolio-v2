@@ -1,4 +1,5 @@
 import Head from "next/head";
+import About from "../components/About";
 import Introduction from "../components/Introduction";
 import Navbar from "../components/Navbar";
 
@@ -14,9 +15,13 @@ export default function Home() {
       </div>
       <div>
         <Navbar />
-        <div className="mt-36">
-
-        <Introduction />
+        <div className="lg:mt-36">
+          <div id="introduction">
+            <Introduction />
+          </div>
+          <div id="about">
+            <About />
+          </div>
         </div>
       </div>
     </>
