@@ -2,6 +2,7 @@ import Head from "next/head";
 import About from "../components/About";
 import Introduction from "../components/Introduction";
 import Navbar from "../components/Navbar";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -15,12 +16,15 @@ export default function Home() {
       </div>
       <div>
         <Navbar />
-        <div className="lg:mt-36">
+        <div>
           <div id="introduction">
             <Introduction />
           </div>
           <div id="about">
             <About />
+          </div>
+          <div id="skills">
+            <Skills />
           </div>
         </div>
       </div>

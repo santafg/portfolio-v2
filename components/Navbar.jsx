@@ -26,13 +26,18 @@ const Navbar = () => {
   ];
   return (
     <>
-      <div className="p-8 hidden lg:flex fixed top-0 left-0 w-full z-50 bg-white">
+      <div className=" hidden lg:flex fixed top-0 left-0 w-full z-50 bg-transparent">
         <div
-          style={{ background: "#2ECC71" }}
-          className=" w-full text-white shadow-lg rounded-lg p-4 px-6 flex items-center justify-between"
+          // style={{ background: "#264143" }}
+          className=" w-full text-white shadow-lg p-4 px-6 flex items-center justify-between bg-gray-900"
         >
-          <ScrollLink to={`inroduction`}>
-            <div className="flex justify-center items-center gap-2 ">
+          <ScrollLink
+            spy={true}
+            smooth={true}
+            duration={500}
+            to={`introduction`}
+          >
+            <div className="flex justify-center items-center gap-2 cursor-pointer ">
               <div className="flex justify-center items-center">
                 <img src="/imgs/logo.png" className="w-16" />
               </div>
@@ -44,13 +49,13 @@ const Navbar = () => {
               {navLinks.map((nlink, i) => (
                 <div key={i}>
                   <ScrollLink
-                  className="cursor-pointer"
-                    // activeClass="active"
+                    className="cursor-pointer"
+                    activeClass="text-green-300"
                     to={`${nlink.route}`}
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-150}
+                    // offset={-150}
                   >
                     {nlink.name}
                   </ScrollLink>
@@ -60,8 +65,8 @@ const Navbar = () => {
             <div>
               <a href="/Assets/resume.pdf" target="blank">
                 <button
-                  style={{ color: "#2ECC71" }}
-                  className="p-2 px-12 shadow font-semibold bg-white rounded"
+                  style={{ color: "#264143" }}
+                  className="p-2 px-12 shadow font-semibold  bg-white rounded"
                 >
                   Resume
                 </button>

@@ -1,15 +1,15 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
-const Introduction = () => {
+const Skills = () => {
   return (
     <>
       <div
-        // style={{ background: "#eddcd9" }}
-        className="flex justify-center items-center bg-green-400  lg:min-h-screen"
+        // style={{ background: "#F9E561" }}
+        className="flex justify-center items-center bg-amber-300"
       >
-        <div className="p-8  flex flex-col-reverse gap-24 sm:p-16 sm:gap-0 sm:flex-row items-center  mt-12 w-full max-w-7xl ">
-          <div className="sm:w-6/12 ">
+        <div className="p-4 sm:p-16 sm:flex items-center min-h-screen mt-12">
+          <div className="sm:w-5/12 text-green-600">
             <h1 className="text-2xl lg:text-4xl">Hello !</h1>
             <h1 className=" text-4xl lg:text-6xl my-2">
               I&apos;m Santanu Ghosh
@@ -17,27 +17,27 @@ const Introduction = () => {
             <p className="text-md lg:text-xl mb-8">A Fullstack Web Developer</p>
             <div>
               <ScrollLink
-                to={`about`}
+                to={`projects`}
                 spy={true}
-                // offset={-150}
+                offset={-150}
                 smooth={true}
                 duration={500}
               >
                 <button
-                  // style={{ color: "#264143" }}
-                  className="p-2 px-12 shadow-lg font-semibold  rounded bg-slate-900 text-white  "
+                  style={{ color: "#2ECC71" }}
+                  className="p-2 px-12 shadow-lg font-semibold bg-white rounded border border-green-400 "
                 >
-                  Know me
+                  Projects
                 </button>
               </ScrollLink>
             </div>
           </div>
-          <div className="sm:w-6/12 ">
+          <div className="sm:w-7/12">
             <img
-              src="/imgs/hello.png"
+              src="/imgs/skills.png"
               alt=""
               id="updown"
-              className=""
+              className=" sm:-ml-16"
             />
           </div>
         </div>
@@ -46,4 +46,4 @@ const Introduction = () => {
   );
 };
 
-export default Introduction;
+export default Skills;
