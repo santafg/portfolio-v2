@@ -1,29 +1,9 @@
 import { Link as ScrollLink } from "react-scroll";
 import React from "react";
+import navLinks from "../js/navlinks";
 
 const Navbar = () => {
-  const navLinks = [
-    {
-      name: "Introduction",
-      route: "introduction",
-    },
-    {
-      name: "About",
-      route: "about",
-    },
-    {
-      name: "Skills",
-      route: "skills",
-    },
-    {
-      name: "Projects",
-      route: "projects",
-    },
-    {
-      name: "Contact",
-      route: "contact",
-    },
-  ];
+  
   return (
     <>
       <div className=" hidden lg:flex fixed top-0 left-0 w-full z-50 bg-transparent">

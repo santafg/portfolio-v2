@@ -1,6 +1,7 @@
 import Head from "next/head";
 import About from "../components/About";
 import Introduction from "../components/Introduction";
+import MobileNavbar from "../components/MobileNavbar";
 import Navbar from "../components/Navbar";
 import Skills from "../components/Skills";
 
@@ -16,6 +17,7 @@ export default function Home() {
       </div>
       <div>
         <Navbar />
+        <MobileNavbar />
         <div>
           <div id="introduction">
             <Introduction />

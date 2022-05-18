@@ -6,9 +6,9 @@ const About = () => {
     <>
       <div
         // style={{ background: "#F9E561" }}
-        className="flex justify-center items-center bg-orange-300 text-amber-900"
+        className="flex justify-center items-center bg-orange-300 text-amber-900 lg:min-h-screen"
       >
-        <div className="p-8 sm:p-16 flex flex-col gap-6 sm:flex-row items-center justify-between min-h-screen mt-12 w-full max-w-7xl">
+        <div className="p-8 sm:p-16 flex flex-col gap-6 sm:flex-row items-center justify-between my-24 sm:mt-32 w-full max-w-7xl">
           <div className="sm:w-5/12">
             <img src="/imgs/about.png" alt="" id="updown" />
           </div>

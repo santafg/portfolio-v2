@@ -8,7 +8,7 @@ const Introduction = () => {
         // style={{ background: "#eddcd9" }}
         className="flex justify-center items-center bg-green-400  lg:min-h-screen"
       >
-        <div className="p-8  flex flex-col-reverse gap-24 sm:p-16 sm:gap-0 sm:flex-row items-center  mt-12 w-full max-w-7xl ">
+        <div className="p-8  flex flex-col-reverse gap-24 sm:p-16 sm:gap-0 sm:flex-row items-center my-24 sm:mt-32 w-full max-w-7xl ">
           <div className="sm:w-6/12 ">
             <h1 className="text-2xl lg:text-4xl">Hello !</h1>
             <h1 className=" text-4xl lg:text-6xl my-2">
