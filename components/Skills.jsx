@@ -6,33 +6,13 @@ const Skills = () => {
     <>
       <div
         // style={{ background: "#F9E561" }}
-        className="flex justify-center items-center bg-amber-300"
+        className="flex justify-center items-center bg-amber-300 lg:min-h-screen"
       >
-        <div className="p-4 sm:p-16 sm:flex items-center min-h-screen mt-12">
-          <div className="sm:w-5/12 text-green-600">
-            <h1 className="text-2xl lg:text-4xl">Hello !</h1>
-            <h1 className=" text-4xl lg:text-6xl my-2">
-              I&apos;m Santanu Ghosh
-            </h1>
-            <p className="text-md lg:text-xl mb-8">A Fullstack Web Developer</p>
-            <div>
-              <ScrollLink
-                to={`projects`}
-                spy={true}
-                offset={-150}
-                smooth={true}
-                duration={500}
-              >
-                <button
-                  style={{ color: "#2ECC71" }}
-                  className="p-2 px-12 shadow-lg font-semibold bg-white rounded border border-green-400 "
-                >
-                  Projects
-                </button>
-              </ScrollLink>
-            </div>
+        <div className="p-8 sm:p-16 flex flex-col gap-6 sm:flex-row items-center justify-between my-24 sm:mt-32 w-full max-w-7xl">
+          <div className="sm:w-8/12 text-green-600">
+            
           </div>
-          <div className="sm:w-7/12">
+          <div className="sm:w-4/12">
             <img
               src="/imgs/skills.png"
               alt=""

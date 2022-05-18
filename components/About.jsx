@@ -16,12 +16,12 @@ const About = () => {
             <h1 className="text-3xl lg:text-5xl">About Me </h1>
 
             <p className="text-base lg:text-md font-light mt-4 mb-8">
-              I'm from Saltlake city (Kolkata) , completed my B.Tech in the
+              I&apos;m from Saltlake city (Kolkata) , completed my B.Tech in the
               field Electrical Engineering , beside that I have a great
               potential towards Web Devlopment . I started learning Web
               Devlopment from Year 2020 and fell in love with the concepts of
               Web Devlopment and then started exploring the technologies like
-              'Reactjs' , 'Nodejs' , 'Expressjs' , 'MongoDB' , after gathering
+              &apos;Reactjs&apos; , &apos;Nodejs&apos; , &apos;Expressjs&apos; , &apos;MongoDB&apos; , after gathering
               some basic knowledge about those technologies I started to build
               my own projects .
             </p>
