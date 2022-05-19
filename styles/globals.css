@@ -20,8 +20,8 @@ a {
             transform: translateY(.5rem);
   }
   to {
-    -webkit-transform: translateY(-1rem);
-            transform: translateY(-1rem);
+    -webkit-transform: translateY(-.5rem);
+            transform: translateY(-.5rem);
   }
 }
 

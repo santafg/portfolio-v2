@@ -6,9 +6,16 @@ const Introduction = () => {
     <>
       <div
         // style={{ background: "#eddcd9" }}
-        className="flex justify-center items-center bg-green-400  lg:min-h-screen"
+        className="flex justify-center items-center bg-green-200  lg:min-h-screen"
+        style={{
+          backgroundImage: "url(" + `/imgs/introbg.webp` + ")",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          height: "100%",
+        }}
       >
-        <div className="p-8  flex flex-col-reverse gap-24 sm:p-16 sm:gap-0 sm:flex-row items-center my-24 sm:mt-32 w-full max-w-7xl ">
+        <div className="p-8  flex flex-col-reverse gap-24 sm:p-16 sm:gap-0 sm:flex-row items-center justify-between my-24 sm:mt-32 w-full max-w-7xl ">
           <div className="sm:w-6/12 ">
             <h1 className="text-2xl lg:text-4xl">Hello !</h1>
             <h1 className=" text-4xl lg:text-6xl my-2">
@@ -32,7 +39,7 @@ const Introduction = () => {
               </ScrollLink>
             </div>
           </div>
-          <div className="sm:w-6/12 ">
+          <div className="sm:w-4/12 ">
             <img
               src="/imgs/hello.png"
               alt=""
