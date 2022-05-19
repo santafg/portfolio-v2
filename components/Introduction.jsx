@@ -6,9 +6,9 @@ const Introduction = () => {
     <>
       <div
         // style={{ background: "#eddcd9" }}
-        className="flex justify-center items-center bg-green-200  lg:min-h-screen"
+        className="flex justify-center items-center bg-green-200  min-h-screen"
         style={{
-          backgroundImage: "url(" + `/imgs/introbg.webp` + ")",
+          backgroundImage: "url(" + `/imgs/bgintro2.jpg` + ")",
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -32,19 +32,19 @@ const Introduction = () => {
               >
                 <button
                   // style={{ color: "#264143" }}
-                  className="p-2 px-12 shadow-lg font-semibold  rounded bg-slate-900 text-white  "
+                  className="p-2 px-12 shadow-lg font-semibold outline-none  rounded bg-black text-white  "
                 >
                   Know me
                 </button>
               </ScrollLink>
             </div>
           </div>
-          <div className="sm:w-4/12 ">
+          <div className="sm:w-3/12 ">
             <img
-              src="/imgs/hello.png"
+              src="/imgs/gitpic.png"
               alt=""
-              id="updown"
-              className=""
+              id="myimg"
+              className="rounded-2xl drop-shadow-xl w-10/12"
             />
           </div>
         </div>

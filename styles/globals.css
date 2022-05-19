@@ -16,17 +16,26 @@ a {
 }
 @keyframes updown {
   from {
-    -webkit-transform: translateY(.5rem);
-            transform: translateY(.5rem);
+    -webkit-transform: translateY(0.5rem);
+    transform: translateY(0.5rem);
   }
   to {
-    -webkit-transform: translateY(-.5rem);
-            transform: translateY(-.5rem);
+    -webkit-transform: translateY(-0.5rem);
+    transform: translateY(-0.5rem);
   }
 }
 
-#updown{
+#updown {
   animation: updown 2s infinite alternate-reverse ease-in-out;
+}
+#myimg {
+  animation: updown 2s infinite alternate-reverse ease-in-out;
+  /* -webkit-box-shadow: 0px 0px 3px 5px #f2e1f2;
+  -moz-box-shadow: 0px 0px 3px 5px #f2e1f2; */
+  box-shadow: 0px 2.5px 20px 5px #040116a1;
+  /* border: 5rem solid white; */
+  /* box-shadow: 0 0 98px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;  */
 }
 
 @tailwind base;

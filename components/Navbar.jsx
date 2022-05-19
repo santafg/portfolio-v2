@@ -19,7 +19,7 @@ const Navbar = () => {
           >
             <div className="flex justify-center items-center gap-2 cursor-pointer ">
               <div className="flex justify-center items-center">
-                <img src="/imgs/logo.png" className="w-16" />
+                <img src="/imgs/gitpic.png" className="w-12 rounded-full" />
               </div>
               <h1 className="font-extrabold text-lg">Santanu Ghosh</h1>
             </div>
