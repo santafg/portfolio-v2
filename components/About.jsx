@@ -6,13 +6,21 @@ const About = () => {
     <>
       <div
         // style={{ background: "#F9E561" }}
-        className="flex justify-center items-center bg-orange-300 text-amber-900 lg:min-h-screen"
+        // className="flex justify-center items-center bg-orange-300 text-amber-900 lg:min-h-screen"
+        className="flex justify-center items-center bg-green-200  min-h-screen text-indigo-100"
+        style={{
+          backgroundImage: "url(" + `/imgs/introbg.webp` + ")",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          height: "100%",
+        }}
       >
         <div className="p-8 sm:p-16 flex flex-col gap-6 sm:flex-row items-center justify-between my-24 sm:mt-32 w-full max-w-7xl">
-          <div className="sm:w-5/12">
-            <img src="/imgs/about.png" alt="" id="updown" />
+          <div className="sm:w-3/12 ">
+            <img src="/imgs/about.png" alt="" id="updown" className="w-32" />
           </div>
-          <div className="sm:w-6/12 ">
+          <div className="sm:w-9/12 ">
             <h1 className="text-3xl lg:text-5xl">About Me </h1>
 
             <p className="text-base lg:text-md font-light mt-4 mb-8">
@@ -29,7 +37,7 @@ const About = () => {
               <ScrollLink to={`skills`}>
                 <button
                   // style={{ color: "#2ECC71" }}
-                  className="p-2 px-12 shadow-lg font-semibold bg-white rounded border  "
+                  className="p-2 px-12 shadow-lg font-semibold text-black bg-white rounded   "
                 >
                   My Skills
                 </button>

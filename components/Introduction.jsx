@@ -6,7 +6,7 @@ const Introduction = () => {
     <>
       <div
         // style={{ background: "#eddcd9" }}
-        className="flex justify-center items-center bg-green-200  min-h-screen"
+        className="flex justify-center items-center bg-green-200 text-indigo-100 min-h-screen"
         style={{
           backgroundImage: "url(" + `/imgs/bgintro2.jpg` + ")",
           backgroundPosition: "center",
@@ -32,7 +32,7 @@ const Introduction = () => {
               >
                 <button
                   // style={{ color: "#264143" }}
-                  className="p-2 px-12 shadow-lg font-semibold outline-none  rounded bg-black text-white  "
+                  className="p-2 px-12 shadow-lg font-semibold outline-none  rounded bg-black  "
                 >
                   Know me
                 </button>
