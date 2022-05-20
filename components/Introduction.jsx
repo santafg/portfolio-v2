@@ -41,7 +41,7 @@ const Introduction = () => {
           </div>
           <div className="sm:w-3/12 ">
             <img
-              src="/imgs/gitpic.png"
+              src="/imgs/mypic.webp"
               alt=""
               id="myimg"
               className="rounded-2xl drop-shadow-xl w-10/12"
